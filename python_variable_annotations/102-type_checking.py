@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """Module that zooms an array by a given factor."""
+
+
 from typing import List, Tuple
+
 
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
     """Zooms in an array by repeating its items."""
